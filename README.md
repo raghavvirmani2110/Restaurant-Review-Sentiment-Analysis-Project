@@ -39,4 +39,4 @@ _**Note: Evaluation scores are obtained using cross validation.**_
 ![Prediction](readme-resources/site4.png)
 
 
-• Web App Link: https://reviewsentimentanalysis0101.herokuapp.com<br/>
+
