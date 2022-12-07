@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+    <title>🥞 Review Analysis 🥞</title>
+</head>
+<body>
+    <h1 style="text-align:center;">🌮🌮Review Sentiment Analysis🌮🌮</h1>
+    <form action="{{ url_for('predict')}}" method="POST" style="text-align:center;">
+		<p style="text-align:center;">Enter Your Review Here</p>
+		<!-- <input type="text" name="comment"/> -->
+		<textarea name="message" rows="6" cols="50"></textarea>
+		<br/>
+
+		<input type="submit" class="btn-info" value="Review">
+		
+	</form>
+	
+	
+	
+	<div style="position: relative;; width: 600px; height: 800px;">    
+
+    <div style="position: absolute; bottom: 5px; ">
+    Made By:
+    Jaskaran Singh Purewal
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+	<header>
+		<h2>🌮🌮Review Sentiment Analysis🌮🌮</h2>
+		
+	</div>
+	</header>
+	<p style="color:orange;font-size:20;"><b>Sentiment</b></p>
+	<div class="results">
+
+
+		
+	{% if prediction == 1%}
+	<h2 style="color:red;">The review was Positive. 😊😊😊😊</h2>
+	{% elif prediction == 0%}
+	<h2 style="color:green;">The review was Bad. 😡😡😡😡</h2>
+	{% endif %}
+
+	</div>
+
+</body>
+</html>
